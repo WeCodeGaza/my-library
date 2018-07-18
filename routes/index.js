@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  // TODO: update index to redirect to `catalog/`
+  res.render('index', { title: 'My Library' });
 });
 
 module.exports = router;
